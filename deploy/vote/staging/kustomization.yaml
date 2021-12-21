@@ -9,3 +9,6 @@ configMapGenerator:
   - name: vote-options
     envs: 
       - options.env
+replicas:
+  - name: vote
+    count: 4
