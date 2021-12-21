@@ -11,4 +11,4 @@ configMapGenerator:
       - options.env
 replicas:
   - name: vote
-    count: 4
+    count: 3
