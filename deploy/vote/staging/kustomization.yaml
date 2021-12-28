@@ -13,5 +13,5 @@ replicas:
   - name: vote
     count: 3
 images:
-  - name: schoolofdevops/vote
+  - name: dopsdemo/vote
     newTag: main-ea62c425-1623341815 # {"$imagepolicy": "flux-system:vote:tag"}
